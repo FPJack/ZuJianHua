@@ -7,6 +7,8 @@
 //
 
 #import "FPViewController.h"
+#import <ZuJianHua/Example.h>
+
 
 @interface FPViewController ()
 
@@ -18,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Example *eample = [Example new];
 }
 
 - (void)didReceiveMemoryWarning
